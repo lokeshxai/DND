@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ice Cream | DND Ice Cream</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <div class="logo-icon">🍦</div>
+        <div class="logo-text">
+            <h2>DND Ice Cream</h2>
+            <span>Ice Cream Paradise</span>
+        </div>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="flavors.html">Flavors</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" class="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+
+<section class="page">
+    <h1>Ice Cream Flavors 🍨</h1>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb" alt="Chocolate">
+            <div class="card-info">
+                <h3>Chocolate Heaven</h3>
+                <p>$6</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a" alt="Vanilla">
+            <div class="card-info">
+                <h3>Vanilla Classic</h3>
+                <p>$4</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1497032205916-ac775f0649ae" alt="Strawberry">
+            <div class="card-info">
+                <h3>Strawberry Dream</h3>
+                <p>$5</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1589927986089-35812389fcc5" alt="Mango">
+            <div class="card-info">
+                <h3>Mango Magic</h3>
+                <p>$6</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 DND Ice Cream | Made with ❤️
+</footer>
+
+</body>
+</html>
